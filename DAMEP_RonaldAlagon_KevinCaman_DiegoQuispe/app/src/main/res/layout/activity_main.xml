@@ -18,7 +18,7 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="332dp"
+                android:layout_width="match_parent"
                 android:layout_height="41dp"
                 android:background="#2196F3"
                 android:text="INEI : FORMULARIO DE CENSO"
@@ -254,10 +254,13 @@
                 android:textSize="8sp" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btn_enviar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:backgroundTint="#028DD2"
+                android:drawableLeft="@drawable/baseline_send_24"
+                android:text="Button"
+                tools:text="Enviar" />
 
         </LinearLayout>
     </ScrollView>
