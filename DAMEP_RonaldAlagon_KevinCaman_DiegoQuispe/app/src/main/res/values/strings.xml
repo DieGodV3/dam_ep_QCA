@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">DAMEP_RonaldAlagon_KevinCaman_DiegoQuispe</string>
+    <string name="txtan">Apellido y Nombre</string>
+    <string name="plan" />
+    <string name="txco">Correo Electrónico</string>
+    <string name="plco" />
+    <string name="txtcl">Clave:</string>
+    <string name="pl" />
+    <string name="tf">Teléfono</string>
+    <string name="pf" />
+    <string name="txf" />
+    <string name="tff">Fecha de Nacimiento (Fecha)</string>
+    <string name="tpf" />
+    <string name="h">Hora de Nacimiento</string>
+    <string name="hh" />
+    <string name="zz">Hora de Nacimiento</string>
+    <string name="zzz">Zona de Nacimiento</string>
+    <string name="zs">Zona de residencia</string>
+    <string name="u">Urbano</string>
+    <string name="r">Rural</string>
+    <string name="vr">¿Cuántas personas viven en la vivienda? (Entero)</string>
+    <string name="vrr" />
+    <string name="i">Ingreso (Sueldo) Promedio de la Familia (Decimales)</string>
+    <string name="ii" />
+    <string name="pr">¿Que opina sobre los bonos otorgados por el gobierno? (Multilinea)</string>
+    <string name="ghd">Ingreso (Sueldo) Promedio de la Familia (Decimales)</string>
+    <string name="o" />
+    <string name="cc">Mascotas que viven en casa</string>
+    <string name="pp">Perro</string>
+    <string name="gt">Gato</string>
+    <string name="Pll">Pollo</string>
+    <string name="Pt">Pato</string>
+    <string name="otr">Otro</string>
 </resources>

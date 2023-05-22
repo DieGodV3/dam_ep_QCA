@@ -8,13 +8,14 @@
     tools:context=".MainActivity">
 
     <ScrollView
+        android:id="@+id/plco"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView"
@@ -27,115 +28,120 @@
                 android:textSize="24sp" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/txtan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
-                android:text="TextView"
+                android:text="@string/txtan"
                 android:textSize="8sp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/plan"
                 android:layout_width="208dp"
                 android:layout_height="43dp"
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name"
+                android:text="@string/plan"
                 android:textSize="8sp" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/txco"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="TextView"
+                android:text="@string/txco"
                 android:textSize="8sp" />
 
             <EditText
-                android:id="@+id/editTextTextEmailAddress"
+                android:id="@+id/plco"
                 android:layout_width="208dp"
                 android:layout_height="45dp"
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="textEmailAddress"
+                android:text="@string/plco"
                 android:textSize="8sp" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/txtcl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="TextView"
+                android:text="@string/txtcl"
                 android:textSize="8sp" />
 
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/plc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="textPassword"
+                android:text="@string/pl"
                 android:textSize="8sp" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/tf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="TextView"
+                android:text="@string/tf"
                 android:textSize="8sp" />
 
             <EditText
-                android:id="@+id/editTextPhone"
+                android:id="@+id/pf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="phone"
+                android:text="@string/pf"
                 android:textSize="8sp" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/tfh"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="TextView"
+                android:text="@string/tff"
                 android:textSize="8sp" />
 
             <EditText
-                android:id="@+id/editTextDate"
+                android:id="@+id/tfp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="date"
+                android:text="@string/tpf"
                 android:textSize="8sp" />
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="TextView"
+                android:text="@string/h"
                 android:textSize="8sp" />
 
             <EditText
-                android:id="@+id/editTextTime"
+                android:id="@+id/hh"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="time"
+                android:text="@string/hh"
                 android:textSize="8sp" />
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/z"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="TextView"
+                android:text="@string/zs"
                 android:textSize="8sp" />
 
             <RadioGroup
@@ -145,112 +151,115 @@
                 android:layout_marginTop="5dp">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/u"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="RadioButton"
+                    android:text="@string/u"
                     android:textSize="8sp" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/r"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="RadioButton"
+                    android:text="@string/r"
                     android:textSize="8sp" />
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/vr"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="TextView"
+                android:text="@string/vr"
                 android:textSize="8sp" />
 
             <EditText
-                android:id="@+id/editTextNumber"
+                android:id="@+id/vrr"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="number"
+                android:text="@string/i"
                 android:textSize="8sp" />
 
             <TextView
-                android:id="@+id/textView10"
+                android:id="@+id/pr"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="TextView"
+                android:text="@string/ghd"
                 android:textSize="8sp" />
 
             <EditText
-                android:id="@+id/editTextNumberDecimal"
+                android:id="@+id/ii"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="numberDecimal"
+                android:text="@string/ii"
                 android:textSize="8sp" />
 
             <TextView
-                android:id="@+id/textView11"
+                android:id="@+id/op"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="TextView"
+                android:text="@string/pr"
                 android:textSize="8sp" />
 
             <EditText
-                android:id="@+id/editTextTextMultiLine"
+                android:id="@+id/o"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:gravity="start|top"
                 android:inputType="textMultiLine"
+                android:text="@string/o"
                 android:textSize="8sp" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/ms"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/cc"
                 android:textSize="8sp" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/pp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CheckBox"
+                android:text="@string/pp"
                 android:textSize="8sp" />
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/gt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CheckBox"
+                android:text="@string/gt"
                 android:textSize="8sp" />
 
             <CheckBox
-                android:id="@+id/checkBox3"
+                android:id="@+id/pll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CheckBox"
+                android:text="@string/Pll"
                 android:textSize="8sp" />
 
             <CheckBox
                 android:id="@+id/checkBox4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CheckBox"
+                android:text="@string/Pt"
                 android:textSize="8sp" />
 
             <CheckBox
                 android:id="@+id/checkBox5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CheckBox"
+                android:text="@string/otr"
                 android:textSize="8sp" />
 
             <Button
